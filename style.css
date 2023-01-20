@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  outline: none;
+}
+
+/* ------------------------------------------------------------ */
+nav{
+display: inline-block;
+}
+/*---------------------------------------------------------------*/
+/*navbar styling */
+.navb a {
+    color: #FEC544;
+    text-decoration: none;
+}
+.navb a:hover {
+    color: #00ff00;
+}
+/*------------------------------------------------------------------------------*/
+/*body styling*/
+#about{
+  border:4px solid #FEC544 ; 
+  border-radius: 5px;
+  background: #a29983;
+  text-align: justify;
+
+}
+/*------------*/
+#work{
+  text-align: justify;
+  border:4px solid #000000 ; 
+  border-radius: 5px;
+  background: #aa7f13;
+}
+/*-------------*/
+#resume{
+  border:4px solid #FEC544 ; 
+  border-radius: 5px;
+  background: #a29983;
+  text-align: justify;
+
+}
+/*-------------*/
+#contact{
+  text-align: justify;
+  border:4px solid #000000 ; 
+  border-radius: 5px;
+  background: #aa7f13;
+
+}
+#btn{
+  display: inline-block;
+    background: #a8a397;
+    color: #282883;
+    font-size: 25px ;
+    font-weight: bold ;
+    padding: 8px 36px ;
+    margin-top: 20px;
+    border-radius:50px;
+    border:2px solid #FEC544 ; 
+    transition: all 0.3s ease;
+}
+  
+
